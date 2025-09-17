@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyMPSG"
+version = "1.0.0"
+authors = [
+  { name="René Vollmer", email="pyMPSG@aypac.de" },
+]
+description = "Generate micropatterning streamfiles, e.g. for FEI HELIOS machines."
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: OS Independent",
+]
+license = "APACHE-2.0"
+license-files = ["LICENSE"]
+keywords = ["FEI", "STRFILE", "STREAMFILE", "FIB", "DUALBEAM", "MILLING"]
+
+dependencies = [
+    "numpy >= 2.2.4",
+    "matplotlib >= 3.10.1",
+    "tabulate >= 0.9.0",
+    #"SetupVariableTracker >= 0.0.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/Aypac/pyMPSG"
+Issues = "https://github.com/Aypac/pyMPSG/issues"

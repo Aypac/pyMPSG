@@ -1,0 +1,10 @@
+﻿venv
+__pycache__
+.idea
+src/pyMPSG.egg-info
+examples/arrays/*
+*.str
+
+
+dist/
+sdist/
