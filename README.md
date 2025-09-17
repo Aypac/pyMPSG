@@ -1,4 +1,4 @@
-# Python Micro Pattern Stream Generator (pyMPSG) library
+# Python Micro Pattern Stream Generator (pyMPSG) library [![DOI](https://zenodo.org/badge/1058970850.svg)](https://doi.org/10.5281/zenodo.17148127)
 
 Generate streamfiles (.str) for patterning on e.g. FEI dualbeam focussed ion beam (FIB) milling machines,
 such as Helios G4Cx or Helios 650.  This allows for generating arbitrary¹ 2.5D shapes, such as domes, cones,
@@ -43,21 +43,7 @@ More usage examples and explanation can be found in the [examples folder](https:
 Based on the python2 script provided in:  
 [_Mohammad Jamali, Ilja Gerhardt, Mohammad Rezai, Karsten Frenner, Helmut Fedder, Jörg Wrachtrup; Microscopic diamond solid-immersion-lenses fabricated around single defect centers by focused ion beam milling. Rev. Sci. Instrum. 1 December 2014; 85 (12): 123703._](https://doi.org/10.1063/1.4902818)
 
-If you use this code in your work, please cite it with its DOI: [XXX]().
-
-BibTeX:
-```BibTeX
-@misc{https://doi.org/,
-  doi = {},
-  url = {https://github.com/Aypac/pyMPSG},
-  author = {René Vollmer},
-  keywords = {FOS: Physical sciences, Publication, Dataset, EBID, IBID},
-  language = {en},
-  title = {pyMPSG},
-  publisher = {},
-  year = {2025}
-}
-```
+If you use this code in your work, please cite it with its DOI: [10.5281/zenodo.17148127](https://doi.org/10.5281/zenodo.17148127).
 
 ## Disclaimer
 All mentioned names (such as NanoBuilder, FEI, Helios, ...) are brands and/or registered trademarks of their respective
