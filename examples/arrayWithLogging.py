@@ -15,7 +15,7 @@ import codecs
 from pyMPSG import pointscanner, depthmapper, helper, StreamGenerator, Setup, Streamfile
 
 # You need the SetupVariableTracker installed for this example:
-#     pip install git+https://github.com/Aypac/SetupVariableTracker
+#     pip install SetupVariableTracker==0.0.7
 from SetupVariableTracker import SetupVariableTracker, Timekeeper
 
 tk = Timekeeper()
